@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import image from '../img/image.png';
+// import image from '../img/image.png';
 import { HeartIcon, EyeIcon } from "@heroicons/react/20/solid";
 import { UserCircleIcon } from "@heroicons/react/24/outline";
 
-function Project() {
+function Project({image}) {
   const [liked, setLiked] = useState(false);
   const [count, setCount] = useState(0);
 
@@ -14,7 +14,7 @@ function Project() {
 
   return (
     <div className='w-[340px] h-[270px] mb-20'>
-      <img className='rounded-xl' src={image} alt='creative shots'/>
+      <img className='rounded-xl w-[350px] h-[250px] px-2' src={image} alt='creative shots'/>
       <div className='flex justify-between p-2'>
         <div className='flex items-center'>
           <UserCircleIcon className="h-8 text-gray-400" />

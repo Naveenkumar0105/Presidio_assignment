@@ -14,7 +14,7 @@ function Navbar() {
           <li className='hover:text-gray-600 hover:cursor-pointer'>Jobs</li>
           <li className='hover:text-gray-600 hover:cursor-pointer'>Go Pro</li>
         </ul>
-        <h2 className='font-bold text-xl '>Dribbble</h2>
+        <h2 className='font-bold text-xl font-m '>Dribbble</h2>
       </div>
       <div className='flex items-center justify-evenly w-[28%] text-gray-600'>
         <div className='flex items-center bg-slate-100 px-2 py-1 rounded-full'>
