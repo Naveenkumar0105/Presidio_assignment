@@ -18,7 +18,7 @@ function Project({ image, name, c_name }) {
   };
 
   return (
-    <div className='w-[340px] h-[270px] mb-20'>
+    <div className='w-[340px] h-[270px] mb-20 hover:cursor-pointer'>
       <div
         className={`w-[350px] h-[250px] px-2 rounded-xl relative group overflow-hidden`}
         onMouseEnter={() => setIsOverlayVisible(true)}
